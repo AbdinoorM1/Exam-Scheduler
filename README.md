@@ -1,6 +1,6 @@
 # Exam Scheduler
 
-**Exam Scheduler** is an interactive Python program that lets users generate exam schedules based on provided CSV files for exam times and room availability. It uses recursive backtracking to ensure that exams are scheduled without overlapping in rooms and prints a readable schedule for each room. The program also includes a tester function to quickly evaluate multiple exam and room files.
+**Exam Scheduler** is an interactive Python program that lets users generate exam schedules based on provided CSV files for exam times and room availability. It uses recursive backtracking to ensure that exams are scheduled in rooms and prints a readable schedule for each room. The program also includes a tester function to quickly evaluate all exam and room files.
 
 **Requires: Python 3**
 
@@ -8,7 +8,7 @@
 ## Folder Structure:
 ```
 📦 Exam Scheduler
-├─ Exam Scheduler.py
+├─ Exam_Scheduler.py
 ├─ exam_times_1.csv
 ├─ exam_times_2.csv
 ├─ exam_times_3.csv
@@ -38,17 +38,18 @@ cd "Exam-Scheduler"
 ```
 3. Run the program:
 ```
-python3 "Exam Scheduler.py"
+python3 "Exam_Scheduler.py"
 ```
 
 ## Quick Testing:
 
-To quickly test all exam and room files at once, open Python in the project folder and type:
-`from Exam Scheduler import tester`, then call tester `tester()`. This will run the solver on all provided CSV files and print which schedules are possible.
+For an easy and simple way to test all exam and room files at once, just run:
+`python3 run_tester.py` in your terminal.
+This will run the solver on all provided CSV files and print which schedules are possible, and those that aren't.
 
 ## Manual Download:
 
 1. Download the repository from GitHub.
 2. Ensure the .csv files are inside the `Exam Scheduler` project folder.
-3. Run `Exam Scheduler.py` with Python 3, or use `tester()` for quick testing.
+3. Run `Exam_Scheduler.py` with Python 3, or use `tester()` for quick testing.
 
