@@ -38,7 +38,7 @@ cd "Exam-Scheduler"
 ```
 3. Run the program:
 ```
-python3 "Exam_Scheduler.py"
+python3 "Exam Scheduler.py"
 ```
 
 ## Quick Testing:
